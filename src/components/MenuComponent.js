@@ -22,7 +22,7 @@ renderDish(foodsmonth) {
         {
         console.log("success")
             return(
-              <div className='container row' style={dishstyle}>
+              <div className='container-xxl row' style={dishstyle}>
               <DishDetail
               weekname = "1st Week"
               week = {foodsmonth.weekone.map((fooditems) => {
