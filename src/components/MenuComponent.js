@@ -17,7 +17,7 @@ constructor(props) {
  
 renderDish(foodsmonth) {
         const dishstyle = {backgroundColor: "azure"}
-        const imgstyle = {width:"16vw", height:"16vh"}
+        const imgstyle = {width:"14vw", height:"14vh"}
         if (foodsmonth != null)
         {
         console.log("success")
